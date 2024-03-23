@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+  background: url(https://moewalls.com/wp-content/uploads/2022/07/seoul-cyberpunk-street-thumb.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Roboto Mono', sans-serif; /* 사이버펑크 스타일에 어울리는 글꼴 */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+  color: #FFFFFF; 
+  gap: 30px; 
+}
+
+.weatherBox {
+   display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+  border: 2px solid rgba(255, 255, 255, 0.8); 
+  padding: 20px;
+  border-radius: 20px;
+  background-color: rgba(0, 0, 0, 0.6); 
+  color: #FF1493;
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0px 0px 15px 5px #FF1493b3;
+  width: 400px;
+  height: 200px;
+
+}
+
+button {
+  background-color: transparent; 
+  color: #FF1493;
+  border: 1px solid rgba(255, 255, 255, 0.8); 
+  margin: 10px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-weight: bold;
+  outline: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.8); 
+  box-shadow: 0px 0px 10px 2px #FF1493b3; 
+}
+
+button:not(:last-child) {
+  margin-right: 20px;
+}
+
+button:last-child {
+  margin-right: 0;
+}
